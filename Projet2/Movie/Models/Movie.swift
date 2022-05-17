@@ -22,7 +22,6 @@ struct Movie: Decodable {
     var video: Bool;
     var vote_average: Float;
     var vote_count: Int;
-//    var back
 }
 
 struct MovieResponse: Decodable {

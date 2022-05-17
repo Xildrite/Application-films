@@ -30,14 +30,14 @@ struct MovieDetailsView: View {
             ScrollView(.vertical) {
                 ZStack(content: {
                     HStack(content: {
-                        ImageView(withURL: imageCard)
+                        ImageView(withURL: image)
                     })
                     .zIndex(1)
                     .frame(width: 100, height: 140)
                     .position(x: gp.size.width*0.85, y: 270)
                     VStack(content: {
                         HStack( content: {
-                            ImageView(withURL: image)
+                            ImageView(withURL: imageCard)
                                 .frame(width: .zero , height: 270)
                         })
                         Text(title)
@@ -60,7 +60,7 @@ struct MovieDetailsView: View {
                                 Text(date)
                                     .foregroundColor(Color.gray)
                                     .font(.system(size: 12))
-                                Text(String(note))
+                                Text("Note : " + String(note))
                                     .foregroundColor(Color.gray)
                                     .font(.system(size: 12))
                             }

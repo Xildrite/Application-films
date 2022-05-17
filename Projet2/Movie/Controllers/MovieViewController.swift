@@ -90,11 +90,11 @@ extension MovieViewController: UITableViewDelegate {
         
         let hostVC = UIHostingController(rootView: MovieDetailsView(
             image: ApiViewModel.apiImgDomain + movieViewModel.movies[index].poster_path,
-            imageCard: ApiViewModel.apiImgDomain + movieViewModel.movies[index].poster_path,
+            imageCard: ApiViewModel.apiImgDomain + movieViewModel.movies[index].backdrop_path,
             title: movieViewModel.movies[index].title,
             subtitle: movieViewModel.movies[index].original_title,
             date: movieViewModel.movies[index].release_date,
-            note: movieViewModel.movies[index].popularity,
+            note: movieViewModel.movies[index].vote_average,
             description: movieViewModel.movies[index].overview,
             bandeannonce: String(movieViewModel.movies[index].video),
             categorie: movieViewModel.movies[index].genre_ids,
