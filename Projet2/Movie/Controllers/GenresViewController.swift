@@ -70,12 +70,12 @@ class GenresViewController: UIViewController{
         func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
             let idGenre = self.genreViewModel.genres[indexPath.row].id
             let swiftUIView = MovieViewController(movieViewModel: MovieViewModel(), genreViewModel: GenreViewModel())
-//            swiftUIView.genre = idGenre
-//
-//            guard let navigationController = self.navigationController else {
-//                print("TEST")
-//                return
-//            }
+            swiftUIView.genre = idGenre
+
+            guard let navigationController = self.navigationController else {
+                print("TEST")
+                return
+            }
             self.navigationController?.pushViewController(swiftUIView, animated: true)
         }
 
