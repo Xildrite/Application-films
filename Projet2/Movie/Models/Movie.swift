@@ -5,6 +5,9 @@
 //  Created by Baptiste Taviot on 19/04/2022.
 //
 
+
+//Structure pour les films
+
 import Foundation
 
 struct Movie: Decodable {

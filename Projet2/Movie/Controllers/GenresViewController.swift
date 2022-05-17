@@ -5,7 +5,11 @@
 //  Created by Baptiste Taviot on 17/05/2022.
 //
 
+
+//Controller pour les genres
+
 import UIKit
+import SwiftUI
 
 class GenresViewController: UIViewController{
     
@@ -57,7 +61,6 @@ class GenresViewController: UIViewController{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = (collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseID, for: indexPath) as? GenreCollectionViewCell) {
             cell.setupCell(title: genreViewModel.genres[indexPath.item].name)
-
             return cell
             
         }

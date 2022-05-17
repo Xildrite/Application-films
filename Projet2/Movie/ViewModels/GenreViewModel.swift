@@ -4,6 +4,11 @@
 //
 //  Created by Baptiste Taviot on 19/04/2022.
 //
+
+
+//Recuperer les données depuis l'API de façon Asynchrone 
+
+
 import Foundation
 import WebKit
 import Combine

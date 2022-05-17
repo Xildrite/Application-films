@@ -5,6 +5,8 @@
 //  Created by Baptiste Taviot on 04/04/2022.
 //
 
+//Code d'une cellule d'un film
+
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {

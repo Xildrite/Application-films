@@ -5,6 +5,8 @@
 //  Created by Baptiste Taviot on 19/04/2022.
 //
 
+//Données de connexion de base à l'API
+
 import Foundation
 import WebKit
 

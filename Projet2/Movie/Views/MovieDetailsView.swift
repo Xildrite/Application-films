@@ -5,6 +5,10 @@
 //  Created by Baptiste Taviot on 29/03/2022.
 //
 
+
+//View faite en SwiftUI. Elle fonctionne pour afficher un film précis.
+
+
 import SwiftUI
 
 struct MovieDetailsView: View {

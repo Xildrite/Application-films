@@ -5,6 +5,8 @@
 //  Created by Baptiste Taviot on 17/05/2022.
 //
 
+//Code d'une cellule d'un genre
+
 import UIKit
 
 class GenreCollectionViewCell: UICollectionViewCell {
