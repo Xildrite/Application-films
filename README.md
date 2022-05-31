@@ -14,7 +14,7 @@
 
 # Starting the project
 
-You will need a MacBook (I use M1 cheap).
+You will need a MacBook (I use M1 chip).
 With Xcode you can launch the application.
 
 
